@@ -11,6 +11,6 @@ class GitSweep < Formula
   end
 
   test do
-    system bin/"git-sweep", "--help"
+    system "#{bin}/git-sweep", "--help"
   end
 end
