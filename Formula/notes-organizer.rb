@@ -3,9 +3,9 @@ require "language/node"
 class NotesOrganizer < Formula
   desc "Notes organizer tool"
   homepage "https://github.com/edahlseng/notes-organizer"
-  url "https://registry.npmjs.org/@eric.dahlseng/notes-organizer/-/notes-organizer-0.3.0.tgz"
-  version "0.3.0"
-  sha256 "d19ff778f270b91d8cf6e71c2be4f49a0963c5dc385837a6dd7140a30c51fb8f" # curl <url> | sha256sum
+  url "https://registry.npmjs.org/@eric.dahlseng/notes-organizer/-/notes-organizer-0.3.1.tgz"
+  version "0.3.1"
+  sha256 "7519c80126743afd862d58b307d1c9a3a38d82dd3a03499fa0bee6ab4c0a3c3e" # curl <url> | sha256sum
 
   depends_on "node"
 
