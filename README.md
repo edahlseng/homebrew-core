@@ -21,4 +21,19 @@ Formulae
 Contributing
 ------------
 
-Ensure that all `brew audit --new-formula <path/to/formula>` tests pass. You can do a test install with `brew install path/to/formula`.
+Ensure that all `brew audit --new-formula <path/to/formula>` tests pass.
+
+Development
+-----------
+
+```shell
+# --debug will catch errors, providing an option to drop into a shell
+# --verbose will show output from the install steps (but will show a lot of other Homebrew output, as well)
+brew (re)install ./Formula/<tool name>.rb [--debug] [--verbose]
+
+# Run tests defined in formula
+brew test ./Formula/<tool name>.rb
+
+# Clean up by uninstalling; install again from the Git repo once pushed
+brew uninstall ./Formula/<tool name>.rb
+```
