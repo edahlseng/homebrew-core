@@ -1,7 +1,7 @@
 require "language/node"
 
 class PullRequest < Formula
-  desc "Notes organizer tool"
+  desc "Pull request helper script"
   homepage "https://github.com/edahlseng/pull-request"
   url "https://registry.npmjs.org/@eric.dahlseng/pull-request/-/pull-request-0.1.1.tgz"
   # version "0.1.1" # Redundant with version scanned from URL
