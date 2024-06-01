@@ -20,7 +20,6 @@ Formulae
 * [KiCad Revision Inspector (KiRi)](https://github.com/leoheck/kiri): KiRI is a small tool to experiment having a visual diff tool for KiCad.
 * [plotkicadsch](https://jnavila.github.io/plotkicadsch/): A small tool to export Kicad Sch files to SVG pictures.
 * [pull-request](https://github.com/edahlseng/pull-request): A command line tool for common repository actions related to creating and submitting pull-requests
-* [swift-format](https://github.com/google/swift/tree/format): (Proposed) official formatter for Swift, by Google
 
 Contributing
 ------------
